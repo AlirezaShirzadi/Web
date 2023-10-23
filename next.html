@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html dir="rtl" lang="fa">
+    <head>
+        <meta charset="utf-8">
+        <title>تمرین سوم</title>
+    </head>
+    <body>
+        <div>
+            <a href="index.html">صفحه قبلی</a>
+            <h4>طلاعات جدید</h4>
+            <form>
+                <select>
+                    <option value="کودک">کودک</option>
+                    <option value="نوجوان">نوجوان</option>
+                    <option value="جوان">جوان</option>
+                    <option value="میانسال">میانسال</option>
+                    <option value="پیر">پیر</option>
+                </select>
+                <select aria-label="گروه سنی">
+                    <optgroup label="جوان">
+                       <option value="نوجوان">نوجوان</option>
+                        <option value="جوان">جوان</option>
+                    </optgroup>
+                    <optgroup label="پیر">
+                        <option value="میانسال">میانسال</option>
+                        <option value="پیر">پیر</option>
+                    </optgroup>
+                </select><br/>
+                <label for="firstname">نام خانوادگی:</label>
+                <input name="firstname" type="text" /><br/>
+                <label for="comment" >نظرات:</label>
+                <textarea name="comment" rows="5" cols="20" maxlenght="98" ></textarea>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>اطلاعات شخصی:</legend>
+                    <label for="name">نام:</label>
+                    <input type="text" id="name" />
+                    <label for="last-name">نام خانوادگی:</label>
+                    <input type="text" id="last-name" />
+                    <label for="phone">شماره تلفن:</label>
+                    <input type="text" id="phone" />
+                </fieldset>
+            </form>
+        </div>
+    <div>
+        <img src="alireza.jpg" alt="alireza" usemap="#alireza" />
+        <map name="alireza">
+            <area shape="rect" coords="17,14,125,403" alt="چمن" href="https://github.com/AlirezaShirzadi" />
+            <area shape="rect" coords="640,639,0,472" alt="هودی" href="https://github.com/AlirezaShirzadi" />
+            <area shape="circle" coords="327,256,176" alt="صورت" href="https://github.com/AlirezaShirzadi" />
+        </map>
+        <iframe src="alireza.jpg"
+                style="border:2px #ffffff solid;"
+                name="myiFrame"
+                scrolling="yes"
+                frameborder="1"
+                marginheight="0px"
+                marginwidth="0px"
+                height="400px"
+                width="600px"
+                allowfullscreen>
+        </iframe>
+    </div>
+    <div>
+        <picture>
+            <source srcset="alireza.jpg" media="(min-width: 800px)">
+        </picture>
+        <datalist id="نمرات">
+            <option value="20">
+            <option value="19">
+            <option value="18">
+            <option value="17">
+            <option value="16">
+            <option value="15">
+        </datalist>
+    </div>
+        <progress value="33" max="100" ></progress>
+        <div>
+            <embed type="video/quicktime" src="video.MP4"
+                   width="640" height="480" />
+        </div>
+        <audio src="http://developer.mozilla.org/@api/deki/files/2966/=AudioTest_(1).ogg" autoplay>
+            <code>audio</code>
+        </audio>
+    </body>
+</html>
